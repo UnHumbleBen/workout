@@ -15,6 +15,39 @@ fn main() {
         simulated_user_specified_value,
         simulated_random_number
     );
+
+    let simulated_user_specified_value = 40;
+    let simulated_random_number = 3;
+
+    generate_workout(
+        simulated_user_specified_value,
+        simulated_random_number
+    );
+
+    let simulated_user_specified_value = 40;
+    let simulated_random_number = 7;
+
+    generate_workout(
+        simulated_user_specified_value,
+        simulated_random_number
+    );
+
+    let simulated_user_specified_value = 10;
+    let simulated_random_number = 7;
+
+    generate_workout(
+        simulated_user_specified_value,
+        simulated_random_number
+    );
+
+    let simulated_user_specified_value = 10;
+    let simulated_random_number = 7;
+
+    generate_workout(
+        simulated_user_specified_value,
+        simulated_random_number
+    );
+
 }
 
 struct Cacher<T>
